@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- TEMA HÍBRIDO: AppCompat para la Activity, pero con estilos de TV -->
+    <style name="Theme.Mininetflixx" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Configuración básica de la TV -->
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:colorPrimary">@android:color/white</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>
